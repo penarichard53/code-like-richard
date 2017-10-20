@@ -1,12 +1,33 @@
+/* Body of Webpage */
+body{
+  background-color: #1C2833; /* color of webpage */
+}
 div{
-	background-color: #FDD12D;
-	border: 3px dotted black;
+	background-color: #196F3D;
+  color: white;	
 	padding: 30px;	  
 }
-
-a:visited { color: blue; }
+/* Hyperlink */
+a:link {color: white; }
+a:visited { color: white; }
 a:hover {color: red;}
 
-body{
-  background-color: #2C464F;
+/* Header 1 */
+h1{
+  font-family: "Verdana", Sans, serif;  
+  letter-spacing: -2px;
+  background-color: #AD1010;
+  width: 500px;
+  color: white;
+  padding: 30px;
+}
+
+/* Header 2 */
+h2{
+  color: white;
+}
+
+/* Paragraph text */
+p{ 
+  color: white;
 }

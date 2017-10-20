@@ -23,11 +23,17 @@ h1{
 }
 
 /* Header 2 */
-h2{
+h2, h3{
   color: white;
 }
 
 /* Paragraph text */
 p{ 
   color: white;
+}
+
+p1{
+  font-family: "Verdana", Sans, serif;  
+  letter-spacing: -1px;
+  font-size: 35px;
 }

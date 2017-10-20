@@ -2,4 +2,6 @@ div{
 	background-color: antiquewhite;
 	border: 3px dotted black;
 	padding: 30px;
+	width: 200px;
+	word-wrap: break-word;
 }

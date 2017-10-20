@@ -2,11 +2,13 @@
 body{
   background-color: #1C2833; /* color of webpage */
 }
-div{
+
+main{
 	background-color: #196F3D;
   color: white;	
 	padding: 30px;	  
 }
+
 /* Hyperlink */
 a:link {color: white; }
 a:visited { color: white; }
@@ -30,6 +32,11 @@ h2, h3{
   width: 500px;
   color: white;
   padding: 30px;
+}
+
+/* Footer */
+footer{
+	font-size: 3px;
 }
 
 /* Paragraph text */

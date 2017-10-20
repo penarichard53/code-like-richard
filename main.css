@@ -24,7 +24,12 @@ h1{
 
 /* Header 2 */
 h2, h3{
+  font-family: "Verdana", Sans, serif;  
+  letter-spacing: -2px;
+  background-color: #AD1010;
+  width: 500px;
   color: white;
+  padding: 30px;
 }
 
 /* Paragraph text */

@@ -1,7 +1,12 @@
 div{
-	background-color: antiquewhite;
+	background-color: #FDD12D;
 	border: 3px dotted black;
-	padding: 30px;
-	width: 200px;
-	word-wrap: break-word;
+	padding: 30px;	  
+}
+
+a:visited { color: blue; }
+a:hover {color: red;}
+
+body{
+  background-color: #2C464F;
 }

@@ -1,69 +1,56 @@
-html{
-  font-family: "Verdana", Sans, serif; 
-}
-/* Body of Webpage */
-body{
-  background-color: #19323C; /* color of webpage */
-}
-
-div{
-  line-height: 10%;  
-  left-margin: 200px;
-  text-align: center;
-}
-
-main{ 
-  width: 50%;
-  color: white; 
-  padding: 30px;  
-  text-align: center;
-  margin-left: 25%;  
+html {
   font-family: "Verdana", Sans, serif;
 }
-
-/* Hyperlink */
+/* Rules for all Links */
 a:link {color: white; }
 a:visited { color: white; }
-a:hover {color: red;}
-
-/* Header 1 */
-h1{  
-  margin-left: 500px;  
-  font-family: "Verdana", Sans, serif;  
-  letter-spacing: -2px;
-  background-color: #AD1010;
-  width: 500px;
-  color: white;
-  text-align: center;
-  padding: 30px;  
+a:hover {color: #A239CA;}
+a{
+  text-decoration: none;
 }
 
-/* Header 2 */
-h2, h3{
-  margin-left: 40%;
-  font-family: "Verdana", Sans, serif;  
-  letter-spacing: -2px;
-  background-color: #AD1010;
-  width: 300px;
-  text-align: center;
+/* Rule for github link only */
+.github{
+  text-decoration: underline;
+}
+
+/* Customize "CodeLikeRichie" text */
+.beginEnd {
+  color: #A239CA;
+}
+
+
+body {
+  margin: 0;
   color: white;
-  padding: 20px;
+  background-color: #0E0B16
+}
+
+header{
+  background: #0E0B16;
+  letter-spacing: -2px;
+  color: white;
+  padding: 5px;
+}
+
+header h1 {
+  font-size: 35px;
+  margin: 0;
+  display: inline;  
+}
+
+/* navigation list */
+nav ul {
+  margin: 0;
+  display: inline;
+  padding:  0 0 0 20px;
+}
+
+/* navigation list links */
+nav ul li{
   font-size: 25px;
-}
-/* Paragraph text */
-p{ 
-  color: white;
+  list-style-type: none;
+  display: inline-block;
+  padding: 5px 15px;  
 }
 
-p1{ /* Interests Header */
-  font-family: "Verdana", Sans, serif;  
-  letter-spacing: -1px;
-  font-size: 35px;  
-}
-footer{
-  letter-spacing: 2px;
-  font-size: 10px;
-  width: 100%;
-  color: white;
-  text-align: center;
-}

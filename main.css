@@ -7,15 +7,7 @@ a:visited { color: white; }
 a:hover {color: #A239CA;}
 
 /* Tab location stays purple */
-a.about_here{
-  color: #A239CA;
-}
-
-a.home_here{
-  color: #A239CA;
-}
-
-a.class_here{
+a.about_here, a.home_here, a.contact_here{
   color: #A239CA;
 }
 

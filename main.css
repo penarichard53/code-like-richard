@@ -1,29 +1,37 @@
 html {
   font-family: "Verdana", Sans, serif;
 }
-/* Rules for all Links */
+
 a:link {color: white; }
 a:visited { color: white; }
 a:hover {color: #A239CA;}
+
 a{
   text-decoration: none;
 }
 
-/* Rule for github link only */
 .github{
   text-decoration: underline;
 }
 
-/* Customize "CodeLikeRichie" text */
 .beginEnd {
   color: #A239CA;
 }
 
+.about{  
+}
+
+.about_title, h3{
+  padding: 10px;
+  margin: 0;
+  background-color: #4717F6;
+  font-size: 25px;  
+}
 
 body {
   margin: 0;
   color: white;
-  background-color: #0E0B16
+  background-color: #0E0B16;
 }
 
 header{
@@ -39,14 +47,12 @@ header h1 {
   display: inline;  
 }
 
-/* navigation list */
 nav ul {
   margin: 0;
   display: inline;
   padding:  0 0 0 20px;
 }
 
-/* navigation list links */
 nav ul li{
   font-size: 25px;
   list-style-type: none;

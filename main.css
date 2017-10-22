@@ -6,34 +6,50 @@ a:link {color: white; }
 a:visited { color: white; }
 a:hover {color: #A239CA;}
 
+/* Tab location stays purple */
+a.about_here{
+  color: #A239CA;
+}
+
+a.home_here{
+  color: #A239CA;
+}
+
+a.class_here{
+  color: #A239CA;
+}
+
 a{
   text-decoration: none;
 }
 
+/* github hyper link in about me text */
 .github{
   text-decoration: underline;
 }
 
+/* CodeLikeRichard page title color scheme */
 .beginEnd {
   color: #A239CA;
 }
 
-.about{  
-}
-
-.about_title, h3{
+/* Page title color schemes */
+.about_title, h3, .quote{  
   padding: 10px;
+  letter-spacing: 2px;
   margin: 0;
   background-color: #4717F6;
   font-size: 25px;  
 }
 
+/* All text on each page */
 body {
   margin: 0;
   color: white;
   background-color: #0E0B16;
 }
 
+/* Navigation tabs */
 header{
   background: #0E0B16;
   letter-spacing: -2px;
@@ -41,12 +57,14 @@ header{
   padding: 5px;
 }
 
+/* Code Like Richard style */
 header h1 {
   font-size: 35px;
   margin: 0;
   display: inline;  
 }
 
+/* navigation */
 nav ul {
   margin: 0;
   display: inline;

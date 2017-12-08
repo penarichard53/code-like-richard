@@ -15,8 +15,9 @@ a{
   text-decoration: none;
 }
 
-/* github hyper link in about me text */
-.github{
+/* github, reddit, subreddits hyper links in about me text */
+.github, .reddit, .buildapcsales, .reddit_all, 
+.buildapc{
   text-decoration: underline;
 }
 
@@ -33,6 +34,8 @@ a{
   background-color: #4717F6;
   font-size: 25px;  
 }
+
+
 
 /* All text on each page */
 body {

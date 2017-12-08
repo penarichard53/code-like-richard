@@ -35,7 +35,11 @@ a{
   font-size: 25px;  
 }
 
-
+.about_me_text {
+  width: 900px;
+  padding: 10px;  
+  text-align: center;
+}
 
 /* All text on each page */
 body {

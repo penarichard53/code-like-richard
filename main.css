@@ -7,7 +7,8 @@ a:visited { color: white; }
 a:hover {color: #A239CA;}
 
 /* Tab location stays purple */
-a.about_here, a.home_here, a.contact_here, a.links_here{
+a.about_here, a.home_here, a.contact_here, a.links_here,
+a.blog_here{
   color: #A239CA;
 }
 
@@ -110,3 +111,12 @@ nav ul li{
   margin-right: auto;  
 }
 
+.AI{
+  all: unset;
+  font-size: 55px;  
+}
+
+.aitext {
+  padding: 15px 300px 0px 300px;
+  text-align: left;
+}

@@ -28,7 +28,7 @@ a{
 }
 
 /* Page title color schemes */
-.about_title, h3, .quote{  
+.about_title, .quote{  
   padding: 10px;
   letter-spacing: 2px;
   margin: 0;
@@ -62,6 +62,17 @@ header h1 {
   font-size: 35px;
   margin: 0;
   display: inline;  
+}
+
+h3{
+  font-size: 25px;
+  padding: 10px;
+  margin: 0;
+  background-color: #4717F6;
+}
+
+.contact_me {
+  padding: 0px 0px 0px 5px;  
 }
 
 /* navigation */

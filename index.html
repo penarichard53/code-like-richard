@@ -1,31 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Code Like Richard</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-  </head>
-  
 <body>
-  <header>
-    <nav>
-      <h1><span class="beginEnd">Code</span><span class="like">Like</span><span class="beginEnd">Richard</span></h1>
-      <ul>
-        <li><a class="home_here" href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li> 
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="links.html">Links</a></li>     
-      </ul>
-    </nav>
-  </header>
-    <p class="quote">First, solve the problem. Then, write the code.</p>
-</body>
 
-<p> THIS IS A TEST </p>
+<p>Welcome Back! Click below to input your name and personal PIN number</p>
 
-<footer>
-    <p>Posted by: Richard Peña</p>
-  <!-- 12/9/2017 19:19 v2.3-->
-  <p>v2.3 <a href="https://github.com/penarichard53/penarichard53.github.io/blob/master/Changes.txt">Changes made.</a></p>
-</footer>
+<p id ="name_pin"></p>
+
+<script>
+function login() {
+  var person = prompt("Enter your name");
+  if(person != null){
+    document.getElementById("name_pin").inner HTML = "Hello " + person + "
+    welcome back.";
+  }
+}
+</script>
+
 </html>

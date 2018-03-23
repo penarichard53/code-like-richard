@@ -1,33 +1,21 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Code Like Richard</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-  </head>
-  
 <body>
-  <header>
-    <nav>
-      <h1><span class="beginEnd">Code</span>Like<span class="beginEnd">Richard</span></h1>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a class="about_here" href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="links.html">Links</a></li>      
-      </ul>
-    </nav>
-  </header>
-  
-<p class="about_title">About Me</p>
-  <main class="about_me_text">
-    <p>
-      My name is Richard Peña and I created this webpage to showcase my programming abilities, integrate my interests, and learn to develop webpages like this one. I am handcrafting every element of this webpage, and plan to maintain this domain and webpage for the rest of my professional career. Users will be able to join me on my journey as I build upon the page, making improvements and tweaks, as well as provide feedback when the time comes. This webpage will speak to recruiters about my full-stack capabilities once it has been fine tuned.
 
-      I am 23 years old and currently attending the University of California, San Diego. I am currently pursuing a Bachelor’s of Science in Computer Science and Engineering. I am a first-year transfer to the school, and it is my first time being away from home. My interests include building computers, java programming, video games, and finding great deals on computer hardware, albeit I can never afford any of these deals… I frequent <a class="reddit" href="www.reddit.com">Reddit</a> quite often, and like to offer advice to those who ask. My favorite subreddits include <a class="buildapc" href="www.reddit.com/r/buildapc">/r/BuildaPC</a>, <a class="buildapcsales" href="www.reddit.com/r/buildapcsales">/r/BuildAPCSales</a>, and <a class="reddit_all" href="www.reddit.com/r/all">/r/All</a>. As for my musical interests, I have picked up a lot of lo-fi hip hop to listen to while I study or write code. The melody and rhythm give me a sense of direction or progress. Additionally, indie rock bands such as Death Cab for Cutie or Two Door Cinema club have some of my favorite songs. I’ve seen both of those bands live in concert, one of which was with my best friend. We both shared a beer and jammed out to the tunes. It was AWESOME!!! Here is one of my favorite songs: 
-        <p></p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/YXwYJyrKK5A" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>     
-        <p></p>
-      I hope to showcase my portfolio in an organized manner, similar to GitHub, and practice my graphic design. I am also going to use this webpage as a learning device, and will be thrilled to see my progression. My first quarter at UCSD taught me so much more than my local community college. There were many introductory concepts I had seen at my community college, but the professors at UCSD really solidify my understanding on the said concepts. Apart from my classes, teaching myself a new skill takes a dedication not found in many, and I believe it sets me apart from those who can just show up to class and do the assignments. I recommend everyone try to build a webpage, it is quite an exciting adventure once you get started.
-    </p>
-  </main>
-</body>
+<p>Welcome Back! Click below to input your name and personal PIN number</p>
+
+<button onclick="login()">Submit Name</button>
+
+<p id ="name_pin"></p>
+
+<script>
+function login() {
+  var person = prompt("Enter your name", " ");
+  if(person != null){
+    document.getElementById("name_pin").inner HTML = "Hello " + person + "
+    welcome back.";
+  }
+}
+</script>
+
+</html>

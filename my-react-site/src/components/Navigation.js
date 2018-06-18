@@ -52,7 +52,7 @@ class Navigation extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="/">Navbar</a>
+        <a className="navbar-brand" href="/">Navigation</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -62,8 +62,8 @@ class Navigation extends React.Component {
           <ul className="navbar-nav mr-auto">
 
             <NavItem path="/" name="Home" />
-            <NavItem path="/page2" name="Page2" />
-            <NavItem path="/page3" name="Disabled" disabled="true" />
+            <NavItem path="/blog" name="Blog" />
+            <NavItem path="/photos" name="Weather" />
             <NavDropdown name="Dropdown">
               <a className="dropdown-item" href="/">Action</a>
               <a className="dropdown-item" href="/">Another action</a>

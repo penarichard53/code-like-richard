@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+  <h1>Number guessing game</h1>
+
+  <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+  <div class="form">
+    <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
+    <input type="submit" value="Submit guess" class="guessSubmit">
+  </div>
+
+  <div class="resultParas">
+    <p class="guesses"></p>
+    <p class="lastResult"></p>
+    <p class="lowOrHi"></p>
+  </div>
+
+    <script>
+    var randomNumber = Math.floor(Math.random() * 100) + 1;
+
+    var guesses = document.querySelector('.guesses');
+    var lastResult = document.querySelector('.lastResult');
+    var lowOrHi = document.querySelector('.lowOrHi');
+
+    var guessSubmit = document.querySelector('.guessSubmit');
+    var guessField = document.querySelector('.guessField');
+
+    var guessCount = 1;
+    var resetButton;
+    guessField.focus();
+
+    function checkGuess() {
+      var userGuess = Number(guessField.value); // takes input from guessField and turns into a number
+
+      if(guessCount === 1) {
+        guesses.textContent = 'Previous Guesses: ';
+      }
+      guesses.textContent += userGuess + ' '; // append user guess to previous guesses
+
+      if(userGuess === randomNumber) {
+        lastResult.textContent = 'Congratulations! You win';
+        lastResult.style.backgroundColor = 'green';
+        lowOrHi.textContent = '';
+        setGameOver();
+      } else if(guessCount === 10){
+        lastResult.textContent = 'Game Over!';
+        setGameOver();
+      } else {
+        lastResult.textContent = 'Wrong!';
+        lastResult.style.backgroundColor = 'red';
+        if(userGuess < randomNumber) {
+          lowOrHi.textContent = 'Your guess is too low';
+        } else {
+          lowOrHi.textContent = 'Your guess is too high';
+        }
+      }
+
+      guessCount++;
+      guessField.value = '';
+      guessField.focus();
+    }
+
+    guessSubmit.addEventListener('click', checkGuess); // on mouse click, call function
+
+    function setGameOver() {
+      guessField.diabled = true;
+      guessSubmit.disabled = true;
+      resetButton = document.createElement('button');
+      resetButton.textContent = 'Click to reset the game';
+      document.body.appendChild(resetButton);
+      resetButton.addEventListener('click', resetGame);
+    }
+
+    function resetGame() {
+      guessCount = 1;
+
+      // get all elements of class .resultParas p into array
+      var resetParas = document.querySelectorAll('.resultParas p')
+      for(var i = 0; i < resetParas.length; i++){
+        resetParas[i].textContent = '';
+      }
+
+      resetButton.parentNode.removeChild(resetButton);
+      // document.body.removeChild(resetButton); should do the same thing?
+
+      guessField.disabled = false;
+      guessSubmit.disabled = false;
+      guessField.value = '';
+      guessField.focus();
+
+      lastResult.style.backgroundColor = 'white';
+
+      randomNumber = Math.floor(Math.random() * 100) + 1;
+    }
+
+    </script>
+
+</html>

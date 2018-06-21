@@ -1,0 +1,119 @@
+commit 11fcb1b222aba390ba61ac6deb9c7ac61972671e
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Fri Oct 20 00:24:41 2017 -0700
+
+    Added background music and footer v1.3
+
+commit 162667a92e97a058e21fc885d4151f9c858b3211
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 23:23:41 2017 -0700
+
+    Added email and photo v1.2
+
+commit f7dae22a9bc9c0ccc4e3e45b4bde0928c3ba78a1
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 23:21:31 2017 -0700
+
+    Added email and photo v1.1
+
+commit 0dd6baf2caa53d7af259f8bd20755efb897610fc
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 23:14:47 2017 -0700
+
+    Added email and photo
+
+commit 63e8c25abc7448e1b3a847e3a5e0401eac04d450
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 22:55:01 2017 -0700
+
+    Change color scheme
+
+commit 2580afb415091b5c9218c1e418418adc3e36e23b
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 22:35:31 2017 -0700
+
+    Change color scheme and revert paragraph box sizes
+
+commit d9a3f3560750477540156143b1ef06049e667a7a
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 22:12:11 2017 -0700
+
+    About Me changed to About this Site with some included text
+
+commit 47977c466e881956b9c65807fe396c577afdcffb
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 18:27:35 2017 -0700
+
+    More about me, changed border in main.css
+
+commit e5748e06f190eb373412669ba5739e67fa8d1dd5
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 18:26:25 2017 -0700
+
+    More about me, changed border
+
+commit 6ed88309328e6cbb64919b85ca1fbfcf006f6c70
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 18:21:24 2017 -0700
+
+    About Me implemented
+
+commit b8a260e9b6dd2f451305ffdab3adf0fd80f80721
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 18:15:54 2017 -0700
+
+    Added <div></div> tag for style
+
+commit 701770f3b6936b95bf2ecdd41991a29594b09cc0
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 18:13:06 2017 -0700
+
+    Update facebook and twitter hyperlinks
+
+commit 3270f77cf10b63119dd1941039f0369bee5b810a
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 18:10:44 2017 -0700
+
+    Update index.html
+
+commit 37d6aca19bb4e42fab47d24511a22eb9a02f28c2
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 17:32:22 2017 -0700
+
+    Update CNAME
+
+commit fd84d05cd81868f6c06ea81d86e7d2dbc9f8c329
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 17:26:46 2017 -0700
+
+    Set theme jekyll-theme-midnight
+
+commit 03be706115c87429b5269e5e8a8dfc17ce507278
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 17:26:08 2017 -0700
+
+    Update CNAME
+
+commit 30ed1e0a4960ed6d675f95a5312f30bb81131530
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 17:18:07 2017 -0700
+
+    Create main.css
+
+commit ee0e0d7c09e25a5722d285d0c36d89d6cef3ce23
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 17:17:54 2017 -0700
+
+    Create index.html
+
+commit 8da726d9ead6521ba151ab96679accd9d5cab377
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 15:57:04 2017 -0700
+
+    Added CNAME file for custom domain (codelikerichard.com)
+
+commit 3df48b9a3b44387383a88df9a9501d2cfcbf80ca
+Author: penarichard53 <penarichard53@gmail.com>
+Date:   Thu Oct 19 15:57:03 2017 -0700
+
+    Initial commit
